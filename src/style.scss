@@ -54,9 +54,17 @@ main{
     overflow-y: scroll;
     border: 3px solid #101010;
     margin-top: 1.5rem;
+    .scores {
+        list-style-type: none;
+        & li {
+            font-size: 1.5rem;
+        }
+        & li:nth-child(even) {
+            background-color: lightgray;
+        }
+     }
     }
-  }
-
+    }
     // Add your score
     .right {
       margin-top: 2rem;
@@ -137,6 +145,7 @@ footer {
   
           .scores {
             li {
+              list-style: none;
               font-size: 1.75rem;
               padding: 0.5rem;
             }
