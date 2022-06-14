@@ -1,5 +1,41 @@
 @import "~bootstrap/scss/bootstrap";
 
-body{
-    background-color: red;
+#focus2{
+    padding: 25px;
+    margin-bottom: 15px;
 }
+
+#focus{
+    padding: 25px;
+}
+
+.table-fixed{
+    width: 100%;
+    background-color: #f3f3f3;
+    tbody{
+      height:200px;
+      overflow-y:auto;
+      width: 100%;
+      }
+    thead,tbody,tr,td,th{
+      display:block;
+    }
+    tbody{
+      td{
+        float:left;
+        width: 100%;
+        text-align: left;
+      }
+    }
+    thead {
+      tr{
+        th{
+          float:left;
+         background-color: #f39c12;
+         border-color:#e67e22;
+         width: 50%;
+        }
+      }
+    }
+  }
+  
