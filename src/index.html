@@ -1,79 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LeaderBoard</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaderboard</title>
 </head>
 <body>
-    <div class="card text-center ">
-        <div class="card-header">
-            <h5 class="card-title">Leaderboard</h5>
-        </div>
-        <div class="card-body">
-            <div class="container">
-                <div class="row">
-                  <div class="col">
-                    
-                    <div id="focus" class="d-flex justify-content-between">
-                        <span>Recent scores</span>    
-                        <button type="button" class="btn btn-warning float-right ml-2">Refresh</button>
-                    </div>
-
-                    <div class="container">
-                        <table class="table table-fixed">
-                          <tbody>
-                            <tr>
-                              <td class="col">John : 9900</td>
-                            </tr>
-                            
-                            <tr>
-                                <td class="col">John : 9900</td>
-                            </tr>
-                            <tr>
-                                <td class="col">John : 9900</td>
-                            </tr>
-                            
-                            <tr>
-                                <td class="col">John : 9900</td>
-                            </tr>
-
-                            <tr>
-                                <td class="col">John : 9900</td>
-                            </tr>
-                            
-                            <tr>
-                                <td class="col">John : 9900</td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                  
-                  </div>
-                  <div class="col">
-                    <div id="focus2" class="d-flex justify-content-between">
-                        <span>Add your score</span>
-                    </div>
-                    <form>
-                        <div class="mb-3">
-                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        </div>
-                        <div class="mb-3">
-                          <input type="number" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="col-md-12 d-flex flex-row-reverse">
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </div>
-                        
-                      </form>
-                  </div>
-                </div>
-              </div>
-        </div>
-        <div class="card-footer text-muted fixed-bottom">
-          @Alexander
-        </div>
+  <header>
+    <h1>Leaderboard</h1>
+  </header>
+  <main>
+    <section class="left">
+      <div class="title">
+        <h2>Recent Scores</h2>
+        <button type="button" class="refresh">Refresh</button>
       </div>
+      <div class="display">
+        <ul class="scores">
+          <li>Name: 100</li>
+          <li>Name: 20</li>
+          <li>Name: 50</li>
+          <li>Name: 78</li>
+          <li>Name: 125</li>
+          <li>Name: 77</li>
+          <li>Name: 42</li>
+        </ul>
+      </div>
+    </section>
+    <section class="right">
+      <h3>Add your score</h3>
+      <form action="#">
+        <input type="text" id="name" placeholder="Your name">
+        <input type="number" id="score" placeholder="Your score">
+        <button type="submit" class="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  <footer id="footer">Copyright ©️ <a href="#">Alexander</a>
+  </footer>
 </body>
 </html>
