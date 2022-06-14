@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# ToDo List
+# Leaderboard
 
-> Project for practice Webpack. Create a simple todo list app.
+> Project to practice API
 
 
 ## Built With
@@ -11,6 +11,7 @@
 - Webpack
 - JavaScript
 - ES6
+- API
 
 ## Live Demo (if available)
 
