@@ -10106,6 +10106,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
+#bodycontainertableautable {
+  height: 150px;
+  overflow-y: auto;
+  border: 3px blue solid;
+}
+
+tbody {
+  height: 20px;
   background-color: red;
 }
