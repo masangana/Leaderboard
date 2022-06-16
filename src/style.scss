@@ -16,6 +16,7 @@ header {
   h1 {
     font-size: 2rem;
     font-weight: 700;
+    color: #07415a;
   }
 }
 
@@ -26,7 +27,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  // Recent Scores
+  
   .left {
     display: flex;
     flex-direction: column;
@@ -40,6 +41,8 @@ main {
 
       h2 {
         font-size: 1rem;
+        font-weight: 700;
+        color: #07415a;
       }
 
       #reload {
@@ -65,7 +68,7 @@ main {
         & li {
           font-size: 1.5rem;
           text-transform: capitalize;
-          font-weight: 300;
+          font-weight: 400;
         }
 
         & li:nth-child(even) {
@@ -80,6 +83,8 @@ main {
 
     h3 {
       font-size: 1.5rem;
+      font-weight: 700;
+      color: #07415a;
     }
 
     input {
@@ -90,6 +95,8 @@ main {
       line-height: 1rem;
       padding: 0.25rem 0.5rem 0.25rem;
       border-top: 0;
+      border-left: 0;
+      border-right: 0;
     }
   }
 }
@@ -145,8 +152,6 @@ button {
   }
 
   main {
-    margin-left: 8rem;
-    margin-right: 8rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -192,8 +197,6 @@ button {
       input {
         line-height: 2rem;
         padding: 0.25rem 0.5rem 0.25rem;
-        border-left: 0;
-        border-right: 0;
       }
 
       .submit {
