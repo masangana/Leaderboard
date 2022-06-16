@@ -13,9 +13,9 @@
 - ES6
 - API
 
-## Live Demo (if available)
+## Live Demo
 
-Soon Avaible
+ GitHub: [Live Demo](https://masangana.github.io/Leaderboard/)
 
 ## Getting Started
 
