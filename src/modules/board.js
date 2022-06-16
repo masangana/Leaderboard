@@ -31,17 +31,17 @@ export default class LeaderBoard {
     }
 
     newGame = async () => {
-        await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
-          method: 'POST',
-          body: JSON.stringify({
-            name : 'Halo War',
-          }),
-          headers: {
-            'Content-type': 'application/json; charset=UTF-8',
-          },
-        }).then((response) => response.json())
+      await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
+        method: 'POST',
+        body: JSON.stringify({
+          name: 'Halo War',
+        }),
+        headers: {
+          'Content-type': 'application/json; charset=UTF-8',
+        },
+      }).then((response) => response.json())
         .then((data) => {
-            localStorage.setItem('idGame', JSON.stringify(data));
-          });
+          localStorage.setItem('idGame', JSON.stringify(data));
+        });
     }
 }
